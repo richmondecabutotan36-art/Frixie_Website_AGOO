@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attractions</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand">Agoo Tourism</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li><a class="nav-link" href="index.html">Home</a></li>
+<li><a class="nav-link" href="about.html">About</a></li>
+<li><a class="nav-link active" href="attractions.html">Attractions</a></li>
+<li><a class="nav-link" href="events.html">Events</a></li>
+<li><a class="nav-link" href="business.html">Businesses</a></li>
+<li><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<section class="text-white text-center d-flex align-items-center"
+style="
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('images/agoo-banner.jpg') center/cover no-repeat;
+min-height: 30vh;
+padding: 60px 20px;
+">
+
+<div class="container">
+    <h1 class="display-3 fw-bold">Tourist Attractions</h1>
+    <p class="fs-5 mt-3">Discover historic landmarks, beaches, parks, and iconic places in Agoo, La Union</p>
+</div>
+
+</section>
+
+<div class="row mt-5">
+
+<!-- 1 -->
+<div class="col-md-4">
+<div class="card h-100">
+<img src="images/basilica.jpg"
+class="card-img-top img-fluid"
+style="height: 200px; object-fit: cover;">
+
+<div class="card-body">
+<h5>Basilica Minore</h5>
+<p>Historic church</p>
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m1">View More</button>
+</div>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="col-md-4">
+<div class="card h-100">
+<img src="images/agoobeach.jpg"
+class="card-img-top img-fluid"
+     style="height: 200px; object-fit: cover;">>
+<div class="card-body">
+<h5>Agoo Beach</h5>
+<p>Relaxing beach</p>
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m2">View More</button>
+</div>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="col-md-4">
+<div class="card h-100">
+<img src="images/ecopark.jpg"
+class="card-img-top img-fluid"
+style="height: 200px; object-fit: cover;">>
+<div class="card-body">
+<h5>Eco Park</h5>
+<p>Nature park</p>
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m3">View More</button>
+</div>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="col-md-6 mt-4">
+<div class="card h-100">
+<img src="images/eagleofthenorth.jpg"
+class="card-img-top img-fluid"
+style="height: 200px; object-fit: cover;">>
+<div class="card-body">
+<h5>Eagle of the North</h5>
+<p>Giant concrete sculpture of an eagle with wings spreadk</p>
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m4">View More</button>
+</div>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="col-md-6 mt-4">
+<div class="card h-100">
+<img src="images/plaza.jpg"
+class="card-img-top img-fluid"
+style="height: 200px; object-fit: cover;">>
+<div class="card-body">
+<h5>Public Plaza</h5>
+<p>Town center</p>
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m5">View More</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- MODALS -->
+<div class="modal fade" id="m1"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><img src="images/basilica.jpg" alt="basillica" class="img-fluid">
+Located in town center.</div></div></div></div>
+<div class="modal fade" id="m2"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><img src="images/agoobeach.jpg" alt="beach" class="img-fluid">
+Perfect for relaxation.</div></div></div></div>
+<div class="modal fade" id="m3"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><img src="images/ecopark.jpg" alt="ecopark" class="img-fluid">
+Green environment.</div></div></div></div>
+<div class="modal fade" id="m4"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><img src="images/eagleofthenorth.jpg" alt="eagle" class="img-fluid">
+Giant concrete sculpture.</div></div></div></div>
+<div class="modal fade" id="m5"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><img src="images/plaza.jpg" alt="plaza" class="img-fluid">
+Public gathering area.</div></div></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

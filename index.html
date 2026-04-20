@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Agoo Tourism</title>
+<meta name="description" content="Explore Agoo, La Union - culture, beaches, landmarks, and tourism spots.">
+
+<!-- Bootstrap ONLY -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- NAVBAR (UNCHANGED) -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand">Agoo Tourism</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="attractions.html">Attractions</a></li>
+<li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+<li class="nav-item"><a class="nav-link" href="business.html">Businesses</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO SECTION (IMPROVED) -->
+<section class="text-white text-center d-flex align-items-center"
+style="
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('images/agoo-banner.jpg') center/cover no-repeat;
+min-height: 30vh;
+padding: 60px 20px;
+">
+
+<div class="container">
+    <h1 class="display-3 fw-bold">Welcome to Agoo</h1>
+    <p class="fs-5 mt-3">A place where culture, history, and coastal beauty meet</p>
+    <a href="#highlights" class="btn btn-light mt-4 px-4 py-2">Discover More</a>
+</div>
+
+</section>
+
+<!-- HIGHLIGHTS SECTION -->
+<section id="highlights" class="py-5 bg-light">
+<div class="container text-center">
+
+<h2 class="mb-4 fw-bold">Top Highlights of Agoo</h2>
+<p class="mb-5 text-muted">Explore the most loved places and experiences</p>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card shadow-sm border-0 h-100">
+<img src="images/agoo.jpg" class="card-img-top" alt="Agoo Town">
+<div class="card-body">
+<h5 class="card-title">Agoo Town</h5>
+<p class="card-text">A peaceful town filled with heritage and local charm.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm border-0 h-100">
+<img src="images/agoobeach.jpg" class="card-img-top" alt="Agoo Beach">
+<div class="card-body">
+<h5 class="card-title">Agoo Beach</h5>
+<p class="card-text">Relax and enjoy the calm waves and coastal breeze.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm border-0 h-100">
+<img src="images/basilica.jpg" class="card-img-top" alt="Basilica">
+<div class="card-body">
+<h5 class="card-title">Basilica</h5>
+<p class="card-text">A historic church and spiritual landmark of Agoo.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- IMAGE CAROUSEL -->
+<section class="py-5">
+<div class="container">
+
+<h2 class="text-center fw-bold mb-4">Gallery</h2>
+
+<div id="carouselExample" class="carousel slide shadow rounded" data-bs-ride="carousel">
+
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+</div>
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<img src="images/agoo.jpg" class="d-block w-100" style="height: 500px;" alt="Agoo">
+</div>
+
+<div class="carousel-item">
+<img src="images/agoobeach.jpg" class="d-block w-100" style="height: 500px;" alt="Beach">
+</div>
+
+<div class="carousel-item">
+<img src="images/basilica.jpg" class="d-block w-100" style="height: 500px;" alt="Basilica">
+</div>
+
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+
+</div>
+</div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
